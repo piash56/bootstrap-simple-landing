@@ -2,4 +2,4 @@
 
 Uses> HTML, CSS, BOOTSTRAP
 
-Live LInk:
+Live LInk: https://piash56.github.io/bootstrap-simple-landing/
