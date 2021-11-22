@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.header{
+    height: 10%;
+}
+
+.header-btn{
+    background-color: #107faD;
+    padding: 5px 15px;
+    border-radius: 15px;
+    float: right;
+    margin-top: 8px;
+}
+
+.header-btn:hover{
+    background-color: tomato;
+    border-radius: 0px;
+    transition: 0.5s;
+}
+
+
+.logo{
+    width: 70px;
+    margin-top: 15px;
+}
+
+.movie-details{
+    margin: 3% 0;
+}
+
+.casting img{
+    height: 40px;
+    width: 35px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.left-box a{
+    background-color: #107faD;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.watch-btn{
+    border-radius: 0 10PX;
+    padding: 7px 12px;
+    border: 1px solid #107faD;
+}
+
+.watch-btn:hover{
+    background-color: tomato;
+    border: 1px solid tomato;
+    border-radius: 10PX 0;
+    transition: 0.5s;
+}
+
+.download-btn{
+    background-color: transparent !important;
+    border: 1px solid white;
+    border-radius: 10PX 0;
+    margin-left: 15px;
+    padding: 7px 20px;
+}
+
+.download-btn:hover{
+    background-color: #107faD !important;
+    border: 1px solid #107faD;
+    border-radius: 0 10PX;
+    transition: 0.5s;
+}
+
+.movie-img{
+    height: 340px;
+    box-shadow: -4px 4px 5px 0 #000;
+}
+
+.series img{
+    width: 90%;
+    margin-top: 15px;
+    box-shadow: -4px 4px 5px 0 #000;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.series img:hover{
+    transform: translateY(-12px)
+}
+
+.bottom{
+    padding: 0 0  50px;
+}
